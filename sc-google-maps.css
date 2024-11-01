@@ -1,0 +1,153 @@
+#scgm_InsertShortcode img {
+	width: 20px;
+}
+
+.scgm-shortcode-wrapper {
+    padding: 10px;
+}
+
+.scgm-shortcode-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.scgm-shortcode-desc {}
+
+.scgm-controls-group {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.scgm-control {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.scgm-control-label {
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+
+.scgm-control-text {
+    width: 100%;
+}
+
+.scgm-control-select {
+    width: 100%;
+}
+
+.scgm-control.separator {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.scgm-control-button {
+	cursor: pointer;
+}
+
+.scgm-right {
+    float: right;
+}
+
+.optional {
+    font-weight: 100;
+    font-size: 11px;
+    vertical-align: bottom;
+}
+
+.required {
+    font-size: 11px;
+    color: red;
+}
+
+.notes {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.highlight-error {
+	border: 1px solid red !important;
+	background-color: #FCC0CD !important;
+}
+
+.scgm-cell {
+	display: table-cell;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.scgm-1-4 {width: 25%;}
+.scgm-2-4 {width: 50%;}
+.scgm-3-4 {width: 75%;}
+.scgm-4-4 {width: 100%;}
+
+.scgm-1-2 {width: 50%;}
+.scgm-2-2 {width: 100%;}
+
+.scgm-1-3 {width: 33.33%;}
+.scgm-2-3 {width: 66.67%;}
+.scgm-3-3 {width: 100%;}
+
+.scgm-pad-5 {padding: 5px;}
+.scgm-pad-10 {padding: 10px;}
+.scgm-pad-15 {padding: 15px;}
+.scgm-pad-20 {padding: 20px;}
+
+#scgm-pages ul, #scgm-pages ol {
+	list-style: inherit;
+	padding: inherit;
+	box-sizing: border-box;
+}
+
+.scgm-promo {
+	background-color: white;
+	border-radius: 6px;
+}
+
+#scgm-promo-content {
+	width: 100%;
+}
+
+#scgm-promo-content img {
+	max-width: 100%;
+}
+
+.scgm-notice {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background-color: #FFF;
+	border-left: 4px solid lightgrey;
+	box-shadow: 1px 1px 2px #999;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+	font-size: 13px;
+}
+
+.scgm-notice.scgm-success {
+	border-left-color: #24890d;
+}
+
+.scgm-notice.scgm-error {
+	border-left-color: #f00;
+}
+
+.scgm-notice.scgm-alert {
+	border-left-color: #00A8EF;
+}
+
+.scgm-notice.scgm-warning {
+	border-left-color: #d46f15;
+}
+
+.scgm-table td {
+	border-bottom: 1px solid #CCC;
+}
+
+.scgm-table {
+	border-spacing: 0;
+}
